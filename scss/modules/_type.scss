@@ -1,0 +1,38 @@
+h2{
+    color: var(--dark);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color:var(--blue);
+}
+
+h4{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color:var(--gray-600);
+    white-space: nowrap;
+}
+
+.btn{
+    display: inline-block;
+    border-radius: 2px;
+    padding: 9px 29px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    background-color: var(--gray-400);
+    color:var(--gray-200);
+    border:2px solid var(--gray-400);
+    cursor: pointer;
+    &:hover{
+        background-color: transparent
+    }
+}

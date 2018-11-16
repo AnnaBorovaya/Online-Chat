@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app-wrapper">
+        <div class="application">
+            <header class="app-header">
+                <div class="left-block">
+                    <div class="togle-button">
+                        <span class="togle-item"></span>
+                        <span class="togle-item"></span>
+                        <span class="togle-item"></span>
+                    </div>
+                </div>
+                <div class="right-block">
+                    <div class="search">
+                        <span class="fa fa-search"></span>
+                    </div>
+                    <div class="account-info">
+                        <img class='avatar' src="img/avatar-1.png" alt="avatar">
+                        <div class="account-text">
+                            <h4 class="account-name">Riko Sapto Dimo</h4>
+                            <div class="account-status">
+                                <p>Available</p>
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                            <ul class="acc-menu">
+                                <li>Dark Theme
+                                    <div class="toggle-box">
+                                        <span class="toggle-circle">
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="app-main">
+                <div class="side-bar">
+                    <div class="sidebar-header">
+                        <h3>Chat</h3>
+                        <button class='btn'>NEW</button>
+                    </div>
+                    <ul class="users-listing">
+                        <li class="user ">
+                            <div class="user-ava">
+                                <img class='avatar' src="img/avatar-2.png" alt="">
+                                <span class="count">2</span>
+                            </div>
+                            <div class="user-name">
+                                <h3 class="name">Fikri Ruslandi</h3>
+                                <span class="last-message">Ko, Kumaha Project anu eta ...</span>
+                                <span class="is-typing">is typing a message ...</span>
+                            </div>
+                            <div class="user-status">
+                                <span class="status"></span>
+                                <span class="time">1 min</span>
+                            </div>
+                        </li>
+                        <li class="user typing online">
+                            <div class="user-ava">
+                                <img class='avatar'  src="img/avatar-3.png" alt="">
+                                <span class="count">3</span>
+                            </div>
+                            <div class="user-name">
+                                <h3 class="name">Moch Ramdhani</h3>
+                                <span class="last-message">Ane menang contes $1000 ...</span>
+                                <span class="is-typing">is typing a message ...</span>
+                            </div>
+                            <div class="user-status">
+                                <span class="status"></span>
+                                <span class="time">2 min</span>
+                            </div>
+                        </li>
+                        <li class="user unread-message">
+                            <div class="user-ava">
+                                <img class='avatar' src="img/avatar-4.png" alt="">
+                                <span class="count">9</span>
+                            </div>
+                            <div class="user-name">
+                                <h3 class="name">Abu Abdullah Nugraha</h3>
+                                <span class="last-message">Ko, Kumaha Project anu eta ...</span>
+                                <span class="is-typing">is typing a message ...</span>
+                            </div>
+                            <div class="user-status">
+                                <span class="status"></span>
+                                <span class="time">1 min</span>
+                            </div>
+                        </li>
+                        <li class="user online unread-message">
+                            <div class="user-ava">
+                                <img class='avatar'  src="img/avatar-5.png" alt="">
+                                <span class="count">4</span>
+                            </div>
+                            <div class="user-name">
+                                <h3 class="name">Muhammad Fauzi</h3>
+                                <span class="last-message">Ko, Minjem sapatu basket ja ...</span>
+                                <span class="is-typing">is typing a message ...</span>
+                            </div>
+                            <div class="user-status">
+                                <span class="status gray-status"></span>
+                                <span class="time">9 min</span>
+                            </div>
+                        </li>
+                        <li class="user online  open">
+                            <div class="user-ava">
+                                <img class='avatar' src="img/avatar-6.png" alt="">
+                                <span class="count"></span>
+                            </div>
+                            <div class="user-name">
+                                <h3 class="name">Nurman Tri Gumelar</h3>
+                                <span class="last-message">Technical meeting lomba jog ...</span>
+                                <span class="is-typing">is typing a message ...</span>
+                            </div>
+                            <div class="user-status">
+                                <span class="status gray-status"></span>
+                                <span class="time">9 min</span>
+                            </div>
+                        </li>
+                        <li class="user typing online">
+                            <div class="user-ava">
+                                <img class='avatar' src="img/avatar-7.png"alt="">
+                                <span class="count"></span>
+                            </div>
+                            <div class="user-name">
+                                <h3 class="name">Bagas Rhafi</h3>
+                                <span class="last-message">Heeh pan si jamar nge dunk </span>
+                                <span class="is-typing">is typing a message ...</span>
+                            </div>
+                            <div class="user-status">
+                                <span class="status"></span>
+                                <span class="time">45 min</span>
+                            </div>
+                        </li>
+                        <li class="user unread-message">
+                            <div class="user-ava">
+                                <img class='avatar'  src="img/avatar-8.png" alt="">
+                                <span class="count">1</span>
+                            </div>
+                            <div class="user-name">
+                                <h3 class="name">Saepul Rohman</h3>
+                                <span class="last-message">Heeh wpap na </span>
+                                <span class="is-typing">is typing a message ...</span>
+                            </div>
+                            <div class="user-status">
+                                <span class="status gray-status"></span>
+                                <span class="time">2 hrs</span>
+                            </div>
+                        </li>
+                        <li class="user online">
+                            <div class="user-ava">
+                                <img class='avatar'  src="img/avatar-9.png" alt="">
+                                <span class="count">1</span>
+                            </div>
+                            <div class="user-name">
+                                <h3 class="name">Muhamad Aldiansyah</h3>
+                                <span class="last-message">Bales tuh ko bisi disetrum</span>
+                                <span class="is-typing">is typing a message ...</span>
+                            </div>
+                            <div class="user-status">
+                                <span class="status gray-status"></span>
+                                <span class="time">2 hrs</span>
+                            </div>
+                        </li>
+                        <li class="user unread-message">
+                                <div class="user-ava">
+                                    <img class='avatar' src="img/avatar-2.png" alt="">
+                                    <span class="count">2</span>
+                                </div>
+                                <div class="user-name">
+                                    <h3 class="name">Fikri Ruslandi</h3>
+                                    <span class="last-message">Ko, Kumaha Project anu eta ...</span>
+                                    <span class="is-typing">is typing a message ...</span>
+                                </div>
+                                <div class="user-status">
+                                    <span class="status"></span>
+                                    <span class="time">1 min</span>
+                                </div>
+                            </li>
+                            <li class="user online">
+                                <div class="user-ava">
+                                    <img class='avatar'  src="img/avatar-3.png" alt="">
+                                    <span class="count">3</span>
+                                </div>
+                                <div class="user-name">
+                                    <h3 class="name">Moch Ramdhani</h3>
+                                    <span class="last-message">Ane menang contes $1000 ...</span>
+                                    <span class="is-typing">is typing a message ...</span>
+                                </div>
+                                <div class="user-status">
+                                    <span class="status"></span>
+                                    <span class="time">2 min</span>
+                                </div>
+                            </li>
+                            <li class="user unread-message">
+                                <div class="user-ava">
+                                    <img class='avatar' src="img/avatar-4.png" alt="">
+                                    <span class="count">1</span>
+                                </div>
+                                <div class="user-name">
+                                    <h3 class="name">Abu Abdullah Nugraha</h3>
+                                    <span class="last-message">Ko, Kumaha Project anu eta ...</span>
+                                    <span class="is-typing">is typing a message ...</span>
+                                </div>
+                                <div class="user-status">
+                                    <span class="status"></span>
+                                    <span class="time">1 min</span>
+                                </div>
+                            </li>
+                    </ul>
+                </div>
+                <div class="chat">
+                    <div class="chat-header">
+                        <h2 class="acc-name">
+                            Abu Abdullah Nugraha
+                            <span class="status"></span>
+                        </h2>
+                        <div class="chat-settings">
+                            <span class='icon fa fa-phone'></span>
+                            <span class='icon fa fa-video-camera'></span>
+                            <span class='icon fa fa-ellipsis-v'></span>
+                        </div>
+                    </div>
+                    <div class="chat-body">
+                        <div class="user-message">
+                            <div class="avatar-wrapper">
+                                <img src="img/avatar-3.png" alt="" class="avatar">
+                            </div>
+                            <p class="message">
+                                <span class="message-text">
+                                    Iya,semua kita berangkat pake pesawat biar cepet dari  jakarta 
+                                    berangkat, terus dari sini kita naik kereta ke jakarta
+                                </span>
+                            </p>
+                        </div>
+                        <div class="acc-message">
+                            <p class="message">
+                                <span class="message-text ">Ok,berarti kita beberpa hari disana?</span>
+                            </p>
+                            <div class="avatar-wrapper">
+                                <img src="img/avatar-1.png" alt="" class="avatar">
+                            </div>
+                        </div>
+                        <div class="user-message">
+                            <div class="avatar-wrapper">
+                                <img src="img/avatar-3.png" alt="" class="avatar">
+                            </div>
+                            <p class="message">
+                                <span class="message-text">Yaiyalah tenang kita tidur di hotel ko </span>
+                            </p>
+                                
+                        </div>
+                        <div class="acc-message">
+                            <p class="message">
+                                <span class="message-text">Sip lumayan seklian jalan jalan, semoga tim kita bisa menang </span>
+                            </p>
+                            <div class="avatar-wrapper">
+                                <img src="img/avatar-1.png" alt="" class="avatar">
+                            </div>
+                        </div>
+                        <div class="user-message">
+                            <div class="avatar-wrapper">
+                                <img src="img/avatar-3.png" alt="" class="avatar">
+                            </div>
+                            <p class="message">
+                                <span class="message-text">Yaiyalah tenang kita tidur di hotel ko </span>
+                            </p>
+                        </div>
+                        <div class="user-message">
+                            <div class="avatar-wrapper">
+                                <img src="img/avatar-3.png" alt="" class="avatar">
+                            </div>
+                            <p class="message">
+                                <span class="message-text">
+                                    Iya,semua kita berangkat pake pesawat biar cepet dari  jakarta 
+                                    berangkat, terus dari sini kita naik kereta ke jakarta
+                                </span>
+                            </p>
+                        </div>
+                        <div class="acc-message">
+                            <p class="message">
+                                <span class="message-text">Ok,berarti kita beberpa hari disana?</span>
+                            </p>
+                            <div class="avatar-wrapper">
+                                <img src="img/avatar-1.png" alt="" class="avatar">
+                            </div>
+                        </div>
+                        <div class="user-message">
+                            <div class="avatar-wrapper">
+                                <img src="img/avatar-3.png" alt="" class="avatar">
+                            </div>
+                            <p class="message">
+                                <span class="message-text">Yaiyalah tenang kita tidur di hotel ko </span>
+                            </p> 
+                        </div>
+                        <div class="user-message">
+                            <div class="avatar-wrapper">
+                                <img src="img/avatar-3.png" alt="" class="avatar">
+                            </div>
+                            <p class="message">
+                                <span class="message-text">Yaiyalah tenang kita tidur di hotel ko </span>
+                            </p> 
+                        </div>
+                        <div class="acc-message">
+                            <p class="message">
+                                <span class="message-text">Sip lumayan seklian jalan jalan, semoga tim kita bisa menang </span>
+                            </p>
+                            <div class="avatar-wrapper">
+                                <img src="img/avatar-1.png" alt="" class="avatar">
+                            </div>
+                        </div>         
+                    </div>
+                    <div class="chat-footer">
+                        <form class='chat-form' action="">
+                            <input class='input-message' type="text" placeholder="Type your message ...">
+                            <label class="label-file" for="input-file">
+                                <span class="fa fa-paperclip"></span>
+                            </label>
+                            <input class"input-file" type="file" id="input-file" style="display:none">
+                            <button class='form-button fa fa-paper-plane' type='submit'>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </main> 
+        </div>
+    </div>
+    <script src='js/js.js'></script>
+</body>
+</html>

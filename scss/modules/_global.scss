@@ -1,0 +1,44 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    line-height: 1.2;
+    color: var(--gray-200);
+    font-weight: 400;
+}
+
+.app-wrapper{
+    
+    overflow: hidden;
+    min-height: 100vh;
+    @include d-flex($align-items:center, $justify-content:center);
+}
+
+.application{
+    position: relative;
+    max-height: 770px;
+    max-width: 960px;
+    width: 960px;
+    overflow: hidden;
+    background-color: var(--app-back, #f5f6f8)
+}
+
+.avatar{
+    overflow: hidden;
+    min-width: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.chat-body,
+.users-listing{
+    &::-webkit-scrollbar{
+        width: 4px;
+    }
+    &::-webkit-scrollbar-track{
+        background-color: (--gray-500);
+    }
+    &::-webkit-scrollbar-thumb{
+        background-color: var(--primary);
+    }
+}
